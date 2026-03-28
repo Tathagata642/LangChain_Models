@@ -12,4 +12,8 @@ model = ChatHuggingFace(llm=llm)
 
 result = model.invoke("Who is the founder of Meta?")
 
+result_new = model.invoke("Give a short description about Llama model")
+
 print(result.content)
+
+print(result_new.content)
