@@ -1,7 +1,7 @@
 from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 
 # this model has a large size so if your PC configuration is not sufficient don't run it on your device it might crash the environment....
-#this code locally saves the model without api calling
+# this code locally saves the model without api calling
 
 llm = HuggingFacePipeline.from_model_id(
     model_id='meta-llama/Llama-3.1-8B-Instruct',
