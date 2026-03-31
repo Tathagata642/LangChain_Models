@@ -19,4 +19,4 @@ A collection of projects and experiments built while learning LangChain.
 4. Add your API keys in a `.env` file
 
 ## Status
-actively learning and adding projects.
+Actively learning and adding projects.
